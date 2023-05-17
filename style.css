@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  font-family: "Vollkorn SC", serif;
+  margin: 0;
+  padding: 0;
+  font-weight: 100px;
+}
+
+body {
+  background: lightgrey;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main h1 {
+  font-size: 3rem;
+}
+
+.presentacion {
+  max-width: 70%;
+  font-size: 1.7rem;
+}
+
+.main span {
+  color: slateblue;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  margin-top: 2rem;
+  animation: all 1s;
+}
+
+button {
+  width: 10rem;
+  height: 4rem;
+  border: none;
+  color: white;
+  background-color: grey;
+  padding: 0.7rem;
+  border-radius: 10px;
+  transition: all 0.1s;
+}
+.botones i {
+  font-size: 40px;
+}
+
+.main button:hover {
+  width: 11rem;
+  height: 5rem;
+  border: none;
+  background-color: slateblue;
+}
+
+.main h1 {
+  color: slateblue;
+  font-size: 4rem;
+}
+
+.main ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+.main li > a:hover {
+  color: slateblue;
+  cursor: pointer;
+}
+
+.volver {
+  height: 4rem;
+  width: 10rem;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.1s;
+}
+
+.volver:hover {
+  width: 11rem;
+  height: 5rem;
+  border: none;
+  background-color: slateblue;
+}
+
+.desc {
+  margin-top: 3rem;
+}
+
+.opciones {
+  color: black;
+  text-decoration: none;
+  font-size: 2.5rem;
+}
+
+/* NAVBAR */
+
+.nav__main {
+  background-color: grey;
+  height: 5.4rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav__item {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+}
+
+.nav__item a {
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.nav__item i {
+  font-size: 35px;
+  color: slateblue;
+  padding-right: 10px;
+}
+
+.nav__item a:hover {
+  color: black;
+}
+
+.nav__item a:hover > i {
+  color: white;
+}
+
